@@ -23,8 +23,10 @@ scripts as the super user.
 
 So in ubuntu:
 
-  sudo install_32bit.sh for 32-bit Ubuntu
-  sudo install_64bit.sh for 64-bit Ubuntu
+```
+sudo install_32bit.sh for 32-bit Ubuntu
+sudo install_64bit.sh for 64-bit Ubuntu
+```
 
 These have only been tested on Ubuntu 12.04, on other versions or
 distributions the library paths may be different.
@@ -63,17 +65,13 @@ can fix the real fault in the code
 
 ### File List:
 
-* libhashab32.so (MD5 = f782ef22a814c77cd995b9d1ad1c9f14):
-Modified 32-bit libhashab.so that computes the hashab for 8 byte
+* **libhashab32.so (MD5 = f782ef22a814c77cd995b9d1ad1c9f14):** Modified 32-bit libhashab.so that computes the hashab for 8 byte
 UUID instead of the 20 bytes UUID it computes by default
 
-* libhashab32_wrapper (MD5 = d77d97ace553d59b1b4b97e2cbb7a5f7):
-32 bit executable that allows you to access the 32-bit libhashab.so
+* **libhashab32_wrapper (MD5 = d77d97ace553d59b1b4b97e2cbb7a5f7):** 32 bit executable that allows you to access the 32-bit libhashab.so
 from the command line enabling access from the 64-bit library
 
-* libhashab64.so (MD5 = 7b6cadfa1b1b93d22042ce73beabea1e):
-New 64-bit libhashab.so that uses the 32 bit version through the 
+* **libhashab64.so (MD5 = 7b6cadfa1b1b93d22042ce73beabea1e):** New 64-bit libhashab.so that uses the 32 bit version through the 
 libhashab32_wrapper program
 
-* libhashab_original.so (MD5 = bb7180cb0c9cee2a605a5a276672913e):
-Original libhashab.so file
+* **libhashab_original.so (MD5 = bb7180cb0c9cee2a605a5a276672913e):** Original libhashab.so file
