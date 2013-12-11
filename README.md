@@ -7,6 +7,8 @@ I'm not the author of this library. I just changed the install script to make it
 
 Orignal author is danwood76. [This](http://ubuntuforums.org/showthread.php?t=1611473&page=4&p=12606043#post12606043) is the link for the forum post where he releases libhashab source. There is also another [blog post](http://lizquilty.com/2013/09/28/how-to-get-an-ipod-nano-6th-gen-working-in-linux/) talking about this library that also mirrors the tarball.
 
+**Warning**: This library is required ONLY for iPod nano 6th gen. It should NOT be used with any other iPod model.
+
 ## Bellow is the README from the original author.
 
 Contained within this archive is a version of the libhashab.so
